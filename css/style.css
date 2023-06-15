@@ -129,6 +129,10 @@ span {
     flex-shrink: 0; 
 }
 
+.circle {
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
 
 @media screen and (max-width: 1100px) {
 
