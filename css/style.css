@@ -1,0 +1,119 @@
+:root {
+    ---padding1rem: 1rem;
+    ---bg-main: #141922;
+    ---white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.general {
+    width: 100%;
+    padding: 2rem;
+    flex-grow: 1;
+    overflow: auto;
+    display: flex;
+    border: 1px dashed black;
+}
+
+.aside {
+    width: 250px;
+    border: 1px dashed black;
+}
+
+.main-container {
+    width: 100%;
+    border: 1px dashed black;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    border: 1px dashed black;
+}
+
+.main {
+    flex-grow: 1;
+    overflow: auto;
+    background-color: var(---bg-main);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border: 1px dashed green;
+}
+
+.nav-bar {
+    width: 800px;
+    height: 50px;
+    border: 1px dashed black;
+}
+.container-sectioncards {
+    width: 100%;
+    height: 250px;
+    padding: var(---padding1rem);
+    border: 1px dashed black;
+}
+
+.container-cards {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 200px;
+    border: 1px dashed black;
+}
+
+.card {
+   width: 150px;
+}
+
+h4, h6 {
+    text-align: center;
+    padding: 0.1rem;
+}
+
+h2, h4, h6 {
+    color: var(---white);
+}
+
+h2 {
+   padding-bottom: var(---padding1rem);
+}
+.footer-bar {
+    width: 200px;
+    overflow: auto;
+    /* mantenere le dimensioni fisse bloccando lo shrink (oltre la tua dimensione iniziale puoi ridurti)*/
+    flex-shrink: 0; 
+}
+
+
+@media screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 600px) {
+}
