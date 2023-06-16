@@ -22,12 +22,48 @@
     <div class="general">
       <!------------------------ Barra laterale sinistra ↓ ------------------->
       <div class="aside">
-        <nav></nav>
+        <nav class="row">
+            <div class="box-home">
+                <div class="brand">
+                <img id="logo" class="pad-bot" src="./img/logo.svg" alt="">
+            </div>
+            <div class="home">
+                <i class="fa-solid fa-house iconxl" style="color: var(---greytext)"></i>
+                <a href="">Home</a>
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass iconxl" style="color: var(---greytext)"></i>
+                <a href="">Cerca</a>
+            </div>
+            <div class="library">
+                <i class="fa-solid fa-music iconxl" style="color: var(---greytext)"></i>
+                <a href="">La tua libreria</a>
+            </div>   
+            </div>
+
+            <div class="box-playlist">
+                <div class="title-category">
+                    <span><strong>PLAYLIST</strong></span>
+                </div>
+                <div class="create-play">
+                    <a href=""><i class="fa-solid fa-plus" style="color: black"></i></a>
+                </div>
+                <div class="container-playlist"></div>
+            </div>
+
+            <div class="box-profile">
+                <div class="ig"></div>
+                <div class="profile"></div>
+            </div>
+            
+        </nav>
       </div>
       <!------------------------ Tutto il Main ↓ ---------------------->
       <div class="main-container">
         <!----- Parte sopra (effettua upgrade) ↓ -->
-        <div class="header"></div>
+        <div class="header">
+            <a href="">EFFETTUA L'UPGRADE</a>
+        </div>
         <!-- Contenuto dell'app ↓ ------>
         <div class="main">
           <!-- Nav Bar (podcast ecc) -->
@@ -41,7 +77,7 @@
               <a href="">SCOPRI</a>
             </div>
           </div>
-          <!-- Blocco1 (titolo + cards + Descrizione) -->
+          <!-- Blocco1 (titolo + cards + Descrizione) ↓ -->
           <div class="container-sectioncards">
             <h2 class="pad-bot">Recently played</h2>
             <div class="container-cards">
@@ -51,6 +87,7 @@
                 <h6>Subtitle</h6>
               </div>
 
+              <!------------------ Cards ----------------------->
               <div class="card">
                 <img src="./img/stranger.jpeg" alt="" />
                 <h5>
@@ -84,7 +121,7 @@
               </div>
             </div>
           </div>
-          <!-- Blocco2 (titolo + cards + Descrizione) -->
+          <!-- Blocco2 (titolo + cards + Descrizione) ↓ -->
           <div class="container-sectioncards">
             <h2>Creato per John Doe</h2>
             <span>Più ascolti, più accurati saranno i suggerimenti.</span>
@@ -100,7 +137,7 @@
               </div>
             </div>
           </div>
-          <!-- Blocco3 (titolo + cards + Descrizione) -->
+          <!-- Blocco3 (titolo + cards + Descrizione) ↓ -->
           <div class="container-sectioncards">
             <h2>Artisti più popolari</h2>
             <span>Più ascolti, più accurati saranno i suggerimenti.</span>
@@ -116,7 +153,7 @@
               </div>
             </div>
           </div>
-      <!-- Footer Bar  -->
+      <!-- Footer Bar ↓ -->
       <div class="footer-bar"></div>
     </div>
   </body>
